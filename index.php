@@ -20,7 +20,7 @@
 </head>
 <body>
 <div class="mdl-layout layout-white mdl-js-layout mdl-layout--fixed-drawer mdl-layout--fixed-header">
-	<header class="mdl-layout__header">
+	<header class="mdl-layout__header mdl-shadow--4dp">
 	  <div class="mdl-layout__header-row">
 	  	<span class="mdl-layout-title visible-xs"><a href="#"><img src="kenkplay.png" width="60" height="" alt=""></a></span>
 	    <div class="mdl-layout-spacer"></div>
@@ -52,7 +52,7 @@
 
 	  </div>
 	</header>
-	<div class="mdl-layout__drawer">
+	<div class="mdl-layout__drawer ">
 	  <span class="mdl-layout-title "><a href="#"><img src="kenkplay.png" width="70" height="" alt=""></a> <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored btn-toggle hidden-xs"><i class="material-icons">list</i></button> </span>
 	  <nav class="mdl-navigation">
 	    <h3 class="mdl-navigation__link navigation-title" >Explorar</h3>
@@ -285,7 +285,7 @@
 		<footer class="mdl-mega-footer">
 			<div class="mdl-mega-footer--bottom-section">
 			    <div class="mdl-logo"><a href="#"><img src="kenkplay.png" width="100" height="" alt=""></a></div>
-			    <span style=" position: relative;top: 10px">Power by: Keny Kalín Romero Acuña</span>
+			    <span style=" position: relative;top: 8px">Power by: Keny Kalín Romero Acuña</span>
 		  	</div>
 		  	<hr>
 			<div class="mdl-mega-footer--bottom-section">

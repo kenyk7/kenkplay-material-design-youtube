@@ -1,5 +1,5 @@
 .mdl-tabs__tab{
-	font-weight: 500 !important;
+	font-weight: 600 !important;
 }
 .mdl-layout__drawer::-webkit-scrollbar{
     width: 2px;
@@ -10,7 +10,9 @@
 .mdl-layout__drawer::-webkit-scrollbar-thumb{
     background: #fff;
 }
-
+.mdl-layout__drawer{
+	box-shadow: 2px 0 7px rgba(0,0,0,0.3);
+}
 
 .bg-white,
 .layout-white .mdl-layout__header,
@@ -155,7 +157,6 @@
 	font-size: 2em;
 	line-height: 1.2;
 }
-
 .img-list{
 	padding: 0;
 	margin-top: -15px;
@@ -182,6 +183,7 @@
 .img-list .img-list-title a{
 	text-decoration: none;
 	font-weight: 400;
+	color: #333
 }
 .img-list .img-list-content{
 	position: absolute;
