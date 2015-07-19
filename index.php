@@ -4,7 +4,7 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>YouTube KenkPlay MDL</title>
+	<title>YouTube youtube MDL</title>
 	<link rel="shortcut icon" href="favicon.png" />
 	<link rel="stylesheet" href="assets/css/material.red.css">
 	<script src="https://storage.googleapis.com/code.getmdl.io/1.0.0/material.min.js"></script>
@@ -22,7 +22,7 @@
 <div class="mdl-layout layout-white mdl-js-layout mdl-layout--fixed-drawer mdl-layout--fixed-header">
 	<header class="mdl-layout__header mdl-shadow--4dp">
 	  <div class="mdl-layout__header-row">
-	  	<span class="mdl-layout-title visible-xs"><a href="#"><img src="kenkplay.png" width="60" height="" alt=""></a></span>
+	  	<span class="mdl-layout-title visible-xs"><a href="#"><img src="youtube.png" width="60" height="" alt=""></a></span>
 	    <div class="mdl-layout-spacer"></div>
 
 	    <div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable
@@ -53,7 +53,7 @@
 	  </div>
 	</header>
 	<div class="mdl-layout__drawer ">
-	  <span class="mdl-layout-title "><a href="#"><img src="kenkplay.png" width="70" height="" alt=""></a> <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored btn-toggle hidden-xs"><i class="material-icons">list</i></button> </span>
+	  <span class="mdl-layout-title "><a href="#"><img src="youtube.png" width="70" height="" alt=""></a> <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored btn-toggle hidden-xs"><i class="material-icons">list</i></button> </span>
 	  <nav class="mdl-navigation">
 	    <h3 class="mdl-navigation__link navigation-title" >Explorar</h3>
 	    <a class="mdl-navigation__link active" href="#"><i class="material-icons">home</i> Qué ver</a>
@@ -78,61 +78,15 @@
     	<div class="mdl-tabs mdl-js-tabs ">
 
 		    <div class="mdl-tabs__tab-bar bg-white">
-		        <a href="#tab1" class="mdl-tabs__tab"><i class="material-icons visible-xs">home</i> <span class="hidden-xs">Inicio</span></a>
+		        <a href="#tab1" class="mdl-tabs__tab is-active"><i class="material-icons visible-xs">home</i> <span class="hidden-xs">Inicio</span></a>
+		        <a href="#playvideo" class="mdl-tabs__tab playvideo"><i class="material-icons visible-xs">ondemand_video</i> <span class="hidden-xs">Play Vídeo</span></a>
 		        <a href="#tab1" class="mdl-tabs__tab"><i class="material-icons visible-xs">music_note</i> <span class="hidden-xs">Electro</span></a>
 		        <a href="#tab1" class="mdl-tabs__tab"><i class="material-icons visible-xs">volume_up</i> <span class="hidden-xs">Reguetón</span></a>
 		        <a href="#tab1" class="mdl-tabs__tab"><i class="material-icons visible-xs">queue_music</i> <span class="hidden-xs">Baladas</span></a>
 		        <a href="#tab1" class="mdl-tabs__tab"><i class="material-icons visible-xs">play_arrow</i> <span class="hidden-xs">Rock</span></a>
 		    </div>
 
-			<div class="mdl-grid">
-				<div class="mdl-cell mdl-cell--8-col mdl-cell--12-col-tablet">
-					<div class="video-container">
-				        <iframe width="640" height="405" src="https://www.youtube.com/embed/RgKAFK5djSk" frameborder="0" allowfullscreen></iframe>
-				    </div>
-				    <h1 class="video-title hidden">Wiz Khalifa - See You Again ft. Charlie Puth</h1>
-				</div>
-				<div class="mdl-cell mdl-cell--4-col mdl-cell--12-col-tablet">
-					<div class=" mdl-shadow--2dp panel-white">
-						<div class="mdl-grid">
-							<div class="mdl-cell mdl-cell--12-col">
-								<ul class="img-list">
-									<li>
-										<img src="https://i.ytimg.com/vi/RgKAFK5djSk/mqdefault.jpg" alt="" width="100" height="70">
-										<div class="img-list-content">
-											<h3 class="img-list-title"><a href="#">Wiz Khalifa - See You Again ft. Charlie Puth</a></h3>
-											<a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="#" data-video="RgKAFK5djSk"> Reproducir</a>
-										</div>
-									</li>
-									<li>
-										<img src="https://i.ytimg.com/vi/9w9dXWU5nMI/mqdefault.jpg" alt="" width="100" height="70">
-										<div class="img-list-content">
-											<h3 class="img-list-title"><a href="#">Prince Royce - Back It Up</a></h3>
-											<a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="#" data-video="9w9dXWU5nMI"> Reproducir</a>
-										</div>
-									</li>
-									<li>
-										<img src="https://i.ytimg.com/vi/SB8-YY2DyHI/mqdefault.jpg" alt="" width="100" height="70">
-										<div class="img-list-content">
-											<h3 class="img-list-title"><a href="#">Plan B - Mi Vecinita</a></h3>
-											<a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="#" data-video="SB8-YY2DyHI"> Reproducir</a>
-										</div>
-									</li>
-									<li>
-										<img src="https://i.ytimg.com/vi/RgKAFK5djSk/mqdefault.jpg" alt="" width="100" height="70">
-										<div class="img-list-content">
-											<h3 class="img-list-title"><a href="#">Wiz Khalifa - See You Again ft. Charlie Puth</a></h3>
-											<a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="#" data-video="RgKAFK5djSk"> Reproducir</a>
-										</div>
-									</li>
-
-								</ul>
-							</div>
-						</div>
-					</div>
-				</div>
-
-			</div>
+			
 
 	    	<div class="mdl-tabs__panel is-active" id="tab1">
 
@@ -280,11 +234,141 @@
 				</div>
 
 	    	</div>
+	    	<div class="mdl-tabs__panel" id="playvideo">
+	    		<div class="mdl-grid">
+					<div class="mdl-cell mdl-cell--8-col mdl-cell--12-col-tablet">
+						<div class="video-container">
+					        <iframe width="640" height="405" src="https://www.youtube.com/embed/RgKAFK5djSk" frameborder="0" allowfullscreen></iframe>
+					    </div>
+					    <br>
+					    <div class=" mdl-shadow--2dp panel-white">
+					    	<div class="mdl-grid">
+					    		<div class="mdl-cell mdl-cell--12-col">
+					    			<h1 class="video-title">Wiz Khalifa - See You Again ft. Charlie Puth</h1>
+					    		</div>
+					    		<div class="mdl-cell mdl-cell--8-col mdl-cell--8-col-tablet">
+					    			<p>
+					    			<img src="https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xpa1/v/t1.0-1/p160x160/10407955_887847197938425_2807822154816946286_n.jpg?oh=9db827b0242db9dba5c846a7aff92a15&oe=56117D4F&__gda__=1448246770_404fc021ae01dc6c454e822fe749d32c" alt="Thumbnail" width="75" align="left" style="border-radius: 50%; margin-right: 15px">
+					    			<strong>Keny Romero </strong> <small>15 203</small><br>
+					    			<button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored btn-icon" style="margin-top: 5px"><i class="material-icons ">video_library</i> <span class="hidden-xs">Suscribirse</span></button>
+					    			</p>
+					    		</div>
+					    		<div class="mdl-cell mdl-cell--4-col mdl-cell--4-col-tablet">
+					    			<div class="text-right" style="font-size: 1.7em; margin-right: 25px; margin-bottom: 8px"><em>150 735</em></div>
+					    			<input class="mdl-slider mdl-js-slider" type="range" min="0" max="100" value="80" tabindex="0" />
+					    			<div class="text-right" style="margin-right: 25px; margin-top: 7px">
+					    				<i class="material-icons">thumb_up</i><span style="position:relative;top: -8px"> 10 523</span>
+					    				<i class="material-icons">thumb_down</i><span style="position:relative;top: -8px"> 123</span>
+					    			</div>
+					    		</div>
+					    	</div>
+						</div>
+						<br>
+					    <div class=" mdl-shadow--2dp panel-white">
+					    	<div class="mdl-grid">
+					    		<div class="mdl-cell mdl-cell--12-col">
+					    			<h2 class="video-title">Comentarios <small>12 591</small></h2>
+					    		</div>
+					    		<div class="mdl-cell mdl-cell--12-col">
+					    			<p><img src="https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xpa1/v/t1.0-1/p160x160/10407955_887847197938425_2807822154816946286_n.jpg?oh=9db827b0242db9dba5c846a7aff92a15&oe=56117D4F&__gda__=1448246770_404fc021ae01dc6c454e822fe749d32c" alt="Thumbnail" width="50" align="left" style="border-radius: 50%; margin-right: 15px"><strong>Keny Romero</strong> <small>Hace 1 hora</small><br> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, laudantium aliquam eligendi excepturi officia nostrum nihil odio veniam iste.</p>
+					    			<hr>
+					    			<p><img src="https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xpa1/v/t1.0-1/p160x160/10407955_887847197938425_2807822154816946286_n.jpg?oh=9db827b0242db9dba5c846a7aff92a15&oe=56117D4F&__gda__=1448246770_404fc021ae01dc6c454e822fe749d32c" alt="Thumbnail" width="50" align="left" style="border-radius: 50%; margin-right: 15px"><strong>Keny Romero</strong> <small>Hace 3 horas</small><br> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, laudantium aliquam eligendi excepturi officia nostrum nihil odio veniam iste.</p>
+					    			<hr>
+					    			<p><img src="https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xpa1/v/t1.0-1/p160x160/10407955_887847197938425_2807822154816946286_n.jpg?oh=9db827b0242db9dba5c846a7aff92a15&oe=56117D4F&__gda__=1448246770_404fc021ae01dc6c454e822fe749d32c" alt="Thumbnail" width="50" align="left" style="border-radius: 50%; margin-right: 15px"><strong>Keny Romero</strong> <small>Hace 3 horas</small><br> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, laudantium aliquam eligendi excepturi officia nostrum nihil odio veniam iste.</p>
+					    		</div>
+					    	</div>
+						</div>
+					</div>
+
+					<div class="mdl-cell mdl-cell--4-col mdl-cell--12-col-tablet">
+						<div class=" mdl-shadow--2dp panel-white">
+							<div class="mdl-grid">
+								<div class="mdl-cell mdl-cell--12-col">
+									<ul class="img-list">
+										<li>
+											<img src="https://i.ytimg.com/vi/RgKAFK5djSk/mqdefault.jpg" alt="" width="100" height="70">
+											<div class="img-list-content">
+												<h3 class="img-list-title"><a href="#">Wiz Khalifa - See You Again ft. Charlie Puth</a></h3>
+												<a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="#" data-video="RgKAFK5djSk"> Reproducir</a>
+											</div>
+										</li>
+										<li>
+											<img src="https://i.ytimg.com/vi/9w9dXWU5nMI/mqdefault.jpg" alt="" width="100" height="70">
+											<div class="img-list-content">
+												<h3 class="img-list-title"><a href="#">Prince Royce - Back It Up</a></h3>
+												<a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="#" data-video="9w9dXWU5nMI"> Reproducir</a>
+											</div>
+										</li>
+										<li>
+											<img src="https://i.ytimg.com/vi/SB8-YY2DyHI/mqdefault.jpg" alt="" width="100" height="70">
+											<div class="img-list-content">
+												<h3 class="img-list-title"><a href="#">Plan B - Mi Vecinita</a></h3>
+												<a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="#" data-video="SB8-YY2DyHI"> Reproducir</a>
+											</div>
+										</li>
+										<li>
+											<img src="https://i.ytimg.com/vi/RgKAFK5djSk/mqdefault.jpg" alt="" width="100" height="70">
+											<div class="img-list-content">
+												<h3 class="img-list-title"><a href="#">Wiz Khalifa - See You Again ft. Charlie Puth</a></h3>
+												<a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="#" data-video="RgKAFK5djSk"> Reproducir</a>
+											</div>
+										</li>
+										<li>
+											<img src="https://i.ytimg.com/vi/RgKAFK5djSk/mqdefault.jpg" alt="" width="100" height="70">
+											<div class="img-list-content">
+												<h3 class="img-list-title"><a href="#">Wiz Khalifa - See You Again ft. Charlie Puth</a></h3>
+												<a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="#" data-video="RgKAFK5djSk"> Reproducir</a>
+											</div>
+										</li>
+										<li>
+											<img src="https://i.ytimg.com/vi/9w9dXWU5nMI/mqdefault.jpg" alt="" width="100" height="70">
+											<div class="img-list-content">
+												<h3 class="img-list-title"><a href="#">Prince Royce - Back It Up</a></h3>
+												<a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="#" data-video="9w9dXWU5nMI"> Reproducir</a>
+											</div>
+										</li>
+										<li>
+											<img src="https://i.ytimg.com/vi/SB8-YY2DyHI/mqdefault.jpg" alt="" width="100" height="70">
+											<div class="img-list-content">
+												<h3 class="img-list-title"><a href="#">Plan B - Mi Vecinita</a></h3>
+												<a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="#" data-video="SB8-YY2DyHI"> Reproducir</a>
+											</div>
+										</li>
+										<li>
+											<img src="https://i.ytimg.com/vi/RgKAFK5djSk/mqdefault.jpg" alt="" width="100" height="70">
+											<div class="img-list-content">
+												<h3 class="img-list-title"><a href="#">Wiz Khalifa - See You Again ft. Charlie Puth</a></h3>
+												<a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="#" data-video="RgKAFK5djSk"> Reproducir</a>
+											</div>
+										</li>
+										<li>
+											<img src="https://i.ytimg.com/vi/RgKAFK5djSk/mqdefault.jpg" alt="" width="100" height="70">
+											<div class="img-list-content">
+												<h3 class="img-list-title"><a href="#">Wiz Khalifa - See You Again ft. Charlie Puth</a></h3>
+												<a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="#" data-video="RgKAFK5djSk"> Reproducir</a>
+											</div>
+										</li>
+										<li>
+											<img src="https://i.ytimg.com/vi/9w9dXWU5nMI/mqdefault.jpg" alt="" width="100" height="70">
+											<div class="img-list-content">
+												<h3 class="img-list-title"><a href="#">Prince Royce - Back It Up</a></h3>
+												<a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="#" data-video="9w9dXWU5nMI"> Reproducir</a>
+											</div>
+										</li>
+
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+
+				</div>
+	    	</div>
 		</div>
 
 		<footer class="mdl-mega-footer">
 			<div class="mdl-mega-footer--bottom-section">
-			    <div class="mdl-logo"><a href="#"><img src="kenkplay.png" width="100" height="" alt=""></a></div>
+			    <div class="mdl-logo"><a href="#"><img src="youtube.png" width="100" height="" alt=""></a></div>
 			    <span style=" position: relative;top: 8px">Power by: Keny Kalín Romero Acuña</span>
 		  	</div>
 		  	<hr>

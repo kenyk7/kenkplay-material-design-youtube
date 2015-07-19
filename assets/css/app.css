@@ -1,3 +1,7 @@
+.text-right{
+	text-align: right;
+}
+
 .mdl-tabs__tab{
 	font-weight: 600 !important;
 }
