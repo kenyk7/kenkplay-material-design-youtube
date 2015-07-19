@@ -246,14 +246,14 @@
 					    		<div class="mdl-cell mdl-cell--12-col">
 					    			<h1 class="video-title">Wiz Khalifa - See You Again ft. Charlie Puth</h1>
 					    		</div>
-					    		<div class="mdl-cell mdl-cell--8-col mdl-cell--8-col-tablet">
+					    		<div class="mdl-cell mdl-cell--8-col mdl-cell--4-col-tablet mdl-cell--12-col-phone">
 					    			<p>
 					    			<img src="https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xpa1/v/t1.0-1/p160x160/10407955_887847197938425_2807822154816946286_n.jpg?oh=9db827b0242db9dba5c846a7aff92a15&oe=56117D4F&__gda__=1448246770_404fc021ae01dc6c454e822fe749d32c" alt="Thumbnail" width="75" align="left" style="border-radius: 50%; margin-right: 15px">
 					    			<strong>Keny Romero </strong> <small>15 203</small><br>
 					    			<button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored btn-icon" style="margin-top: 5px"><i class="material-icons ">video_library</i> <span class="hidden-xs">Suscribirse</span></button>
 					    			</p>
 					    		</div>
-					    		<div class="mdl-cell mdl-cell--4-col mdl-cell--4-col-tablet">
+					    		<div class="mdl-cell mdl-cell--4-col mdl-cell--4-col-tablet mdl-cell--12-col-phone">
 					    			<div class="text-right" style="font-size: 1.7em; margin-right: 25px; margin-bottom: 8px"><em>150 735</em></div>
 					    			<input class="mdl-slider mdl-js-slider" type="range" min="0" max="100" value="80" tabindex="0" />
 					    			<div class="text-right" style="margin-right: 25px; margin-top: 7px">
